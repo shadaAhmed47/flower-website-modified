@@ -1,0 +1,309 @@
+
+body{
+    margin: 0;
+    background-color: black;
+}
+nav{
+    display: flex;
+    position: relative;
+    top: -460px;
+}
+.navlist{
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+   position: absolute;
+   top: 10px;
+   right: 60px;
+}
+a{
+    text-decoration: none;
+    justify-content: flex-end;
+}
+.navlist li{
+margin-left: 60px;
+font-size: 30px;
+font-family: 'Lora', serif;
+color:aliceblue;
+}
+.logo{
+    letter-spacing: 5;
+    margin-top: 20px;
+    font-size: 50px;
+    margin-left: 50px;
+    font-family: 'Lora', serif;
+    color: #c10060;
+   
+}
+.backimg{
+    position: absolute;
+    top: 0;
+}
+.backimg img{ 
+    width: 100%;
+}
+nav li:hover{
+    color: gray;
+    transition-duration:.5s ;
+}
+h2{
+    position: relative;
+    color: rgb(237, 226, 230);
+    top: 250px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Lora', serif;
+}
+
+h1{
+    position: relative;
+    color: rgb(237, 226, 230);
+    top: 250px;
+    text-align: center;
+    font-size: 110px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 15px;
+}
+.all{
+    width: 90%;
+    margin: auto;
+}
+.offersec{
+    margin-top: 300px;
+    background-color:black;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    /* position: absolute; */
+
+}
+.offer{
+    display: flex;
+    width: 75%;
+    background-color: #fbe7e8;
+}
+.offerimg img{
+width: 350px;
+height: 300px;
+}
+.offer .offertext{
+    position: absolute;
+}
+.offer .offertext h2{
+    position: relative;
+    top: 0;
+    left: -95px;
+    color: #c10060;
+    font-size: 40px;
+}
+.tt{
+    width: 40%;
+}
+.offer .offertext p{
+    position: relative;
+    top: -17px;
+    left: 351px;
+    color: black;
+    /* font-weight: bold; */
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    margin-left: 20px;
+    text-align: center;
+}
+.offer .offertext .offerprice{
+    color: #c10060;
+    font-size: 40px;
+    margin-left:600px;
+    margin-top: -45px;
+}
+.offer .offertext button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #eb4397;
+    border: 1px solid #eb4397;
+    border-radius: 30px;
+    margin-left: 580px;
+    position: relative;
+    bottom: 30px;
+}
+.offer .offertext button:hover{
+    background-color: rgb(166, 162, 162);
+    transition-duration: .2s;
+    border-color: rgb(166, 162, 162);
+}
+.offer .del{
+    width: 30%;
+}
+.delv{
+    font-size: 40px;
+    position: relative;
+    top: 0;
+    margin-top: 14px;
+}
+.del p{
+    color: aliceblue;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.del .pinktext{
+    color: #ed1983;
+}
+.del .offericons{
+    margin-top: 40px;
+    margin-left: 120px;
+}
+.del i{
+    color: aliceblue;
+    font-size: 40px;
+    margin-left: 50px;
+}
+.del .comm{
+    color: #f53b98;
+}
+.itemssec{
+    margin-top: -18px;
+    background-color: black;
+}
+.itemssec h2 {
+    position: relative;
+    top: -50px;
+    margin-left: -1100px;
+}
+.itemssec .all{
+margin-top: -75px;
+background-color: black;
+height: 400px;
+}
+.itemssec .all .items{
+    display: flex;
+} 
+.item {
+    height: 200px;
+    background-color: rgb(24, 30, 30);
+    position: relative;
+    width: 150px;
+}
+.all .items .i2 ,.all .items .i3{
+    margin-left: 330px;
+}
+.layer{
+    position: absolute;
+    bottom: -362px;
+    left: 0;
+    right: 0;
+    border-radius: 50px;
+    background-color:rgb(126, 125, 125);
+    opacity: .9;
+    overflow: hidden;
+    width: 425px;
+    height: 0;
+    transition: .5s ease;
+}
+.item:hover .layer {
+    height: 560px;
+}
+.text {
+    color:#f68fc3;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.prices{
+    margin-top: 250px;
+}
+.prices .all{
+    display: flex;
+}
+.prices .all .p1{
+    width: 30%;
+    display: flex;
+}
+.prices h3{
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 80px;
+}
+.prices h4{
+    color: rgb(161, 160, 160);
+    text-decoration: line-through;
+    font-size: 23px;
+    margin-left: 200px;
+}
+.prices .p2,.prices .p3{
+margin-left: 80px;
+width: 30%;
+display: flex;
+}
+.buttons button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #eb4397;
+    border: 1px solid #eb4397;
+    border-radius: 30px;
+}
+.buttons .b1{
+    margin-left: 212px;
+    position: relative;
+    bottom: 295px;
+}
+.buttons .b2{
+    margin-left: 330px;
+    position: relative;
+    bottom: 295px;
+}
+.buttons .b3{
+    margin-left: 330px;
+    position: relative;
+    bottom: 300px;
+}
+.buttons button:hover{
+    background-color: rgb(166, 162, 162);
+    transition-duration: .2s;
+    border-color: rgb(166, 162, 162);
+}
+.imgfooter img{
+    width: 100%;
+    height: 400px;
+    margin-top: -230px;
+}
+footer{
+    margin-top: -238px;
+    display: flex;
+    justify-content: space-around;
+}
+footer div h2{
+    font-size: 30px;
+    color: aliceblue;
+}
+footer .div2 .footlist,footer .div1 .footlist,footer .div3 .footlist,footer .div4 .footlist{
+    position: relative;
+    bottom: -235px;
+    list-style: none;
+    margin-right: 50px;
+}
+footer .div2 .footlist li,footer .div1 .footlist li,footer .div3 .footlist li,footer .div4 .footlist li{
+color: gray;
+font-size: 20px;
+padding: 15px;
+}
+footer .div2 .footlist li:hover,footer .div1 .footlist li:hover,
+footer .div3 .footlist li:hover,footer .div4 .footlist li:hover{
+color: #fbe7e8;
+transition-duration: .2s;
+}
+.footicons{
+    margin-left: 420px;
+    margin-top: 250px;
+}
+.footicons i{
+    color: #c10060;
+    font-size: 30px;
+    margin-left: 60px;
+}
